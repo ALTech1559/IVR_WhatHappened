@@ -1,6 +1,7 @@
 # Крюков Андрей - "WathHappened"
 VK: https://vk.com/apkfile
 Email: a6271547@mail.ru
+Группа 10 МИ 3
 ## [ НАЗВАНИЕ ПРОЕКТА ]
 What happened
 
