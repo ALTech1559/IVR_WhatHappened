@@ -1,0 +1,4 @@
+#Thu May 13 23:21:17 MSK 2021
+base.0=D\:\\Desktop\\IVR_GIT\\What Happened\\Temp\\gradleOut\\launcher\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

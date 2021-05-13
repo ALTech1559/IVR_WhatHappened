@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &279084050377707249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 279084050377707255}
+  - component: {fileID: 279084050377707248}
+  m_Layer: 0
+  m_Name: ButtonsHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &279084050377707255
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279084050377707249}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 111.163864, y: 45.8908, z: -63.898426}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &279084050377707248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279084050377707249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b982841cf98f4bb40ae9846b1f04a5e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Joistic: {fileID: 0}
+  FirstMiniGame: {fileID: 0}
+  LightController: {fileID: 0}
+  Phone: {fileID: 0}
+  Book: {fileID: 0}
+  CallsPanel: {fileID: 0}
+  MessagesPanel: {fileID: 0}
+  TermuxPanel: {fileID: 0}
+  PhonePanel: {fileID: 0}
+  MainTextTermux: {fileID: 0}
+  ErrorTermux: {fileID: 0}
+  ProgrammerSpeech: {fileID: 0}
+  PhoneInput: {fileID: 0}
+  Pantry: {fileID: 0}
+  PantryButton: {fileID: 0}
+  Cafe: {fileID: 0}
+  CafeButton: {fileID: 0}
+  Kitchen: {fileID: 0}
+  KitchenButton: {fileID: 0}

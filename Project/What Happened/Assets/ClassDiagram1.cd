@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="[ Сценарий 1 - Вход в игру]">
+    <Position X="2.282" Y="0.812" Height="0.5" Width="1.335" />
+  </Comment>
+  <Comment CommentText="[ Сценарий 2 - Управление светом в доме]">
+    <Position X="2.274" Y="5.861" Height="0.677" Width="1.335" />
+  </Comment>
+  <Comment CommentText="[ Сценарий 4 - Взаимодействие с предметами]">
+    <Position X="2.25" Y="12.5" Height="0.677" Width="1.335" />
+  </Comment>
+  <Comment CommentText="[ Сценарий 5 - Перемещение между комнатами]">
+    <Position X="2.32" Y="19.362" Height="0.677" Width="1.335" />
+  </Comment>
+  <Comment CommentText="[ Сценарий 6 - Получение подсказки]">
+    <Position X="2.154" Y="28.071" Height="0.677" Width="1.335" />
+  </Comment>
+  <Class Name="ButtonsHolderUI">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABICAAAAEoAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Menu\ButtonsHolderUI.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SceneLoading" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SceneLoading">
+    <Position X="6.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAAAACAAAACAAAIAAAAAAAAAAAAAAACABAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\SceneLoading.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockHolder">
+    <Position X="6.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAgAAAAAQAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Light\BlockHolder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LightSwitch" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LightControllerHolder">
+    <Position X="2.25" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAwAAAAAAAAAEAAAAAAAEAAQIIAQAAQAICAA=</HashCode>
+      <FileName>Assets\Scripts\Light\LightControllerHolder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BlockHolder" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LightSwitch">
+    <Position X="10.25" Y="7" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACQAACAgAAAgAAAAgAIAAAACCgAAAAAEAAAAAEgIAA=</HashCode>
+      <FileName>Assets\Scripts\LightSwitch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BatteryTaker" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAABgACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\House\Takers\BatteryTaker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KeyTaker" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\House\Takers\KeyTaker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KillersNoteTaker" BaseTypeListCollapsed="true">
+    <Position X="6" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\House\Takers\KillersNoteTaker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LanternTaker" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAAAAAAAAAAAEAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\House\Takers\LanternTaker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RopeTaker" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAIAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\House\Takers\RopeTaker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SecondCharacterTaker" BaseTypeListCollapsed="true">
+    <Position X="6" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAQAAAAAAAAAABAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\House\Takers\SecondCharacterTaker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlayerController">
+    <Position X="2.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIQAIREAQCAAgAABAAAAAAAAAAAAAAIIJAAQQCADGAg=</HashCode>
+      <FileName>Assets\Scripts\House\Player\PlayerController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="WalllsControll" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WalllsControll">
+    <Position X="5.25" Y="21" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="WalllsControll.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\House\Controllers\WalllsControll.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAEAgAAAAAIAAAQCBACCAA=</HashCode>
+      <FileName>Assets\Scripts\House\Controllers\WalllsControll.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RoomsData" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RoomsData">
+    <Position X="8" Y="21" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="RoomsData.Names" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\House\Controllers\RoomsData.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="RoomsData.Room" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\House\Controllers\RoomsData.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AwAAIAgEACAAAAABFAAAgAAEAABAAwAAABAAAQKAAAg=</HashCode>
+      <FileName>Assets\Scripts\House\Controllers\RoomsData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ButtonsHolder">
+    <Position X="2.25" Y="29.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Events" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>mAQAAOEEAChYDgABAIAAYBIBAJGKFDICAADAQBAQAIk=</HashCode>
+      <FileName>Assets\Scripts\UI\ButtonsHolder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PurchaseController1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PurchaseController">
+    <Position X="7.5" Y="29.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAEAIAAAIAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PurchaseController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="HintController1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HintController">
+    <Position X="11.75" Y="29.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAIIAIAAAAAAIIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\House\Controllers\HintController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
